@@ -103,8 +103,8 @@ color: #404BBF;
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 471px;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
 }
 .menu {
     display: flex;
@@ -116,6 +116,7 @@ color: #404BBF;
 /* ====== HERO SECTION =====*/
 .hero-section {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .solutions {
@@ -127,6 +128,7 @@ color: #404BBF;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 .button {
     color: #FFFFFF;
@@ -203,6 +205,7 @@ color: #404BBF;
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 .names {
     color: #2E2F42;
