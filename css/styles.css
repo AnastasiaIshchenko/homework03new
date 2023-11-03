@@ -23,6 +23,9 @@ img {
 .link {
     text-decoration: none;
 }
+button {
+    cursor: pointer;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -32,7 +35,16 @@ body {
 padding-top: 120px;
 padding-bottom: 120px;
 }
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /* =======HEADER STYLES ======*/
+
+
 .logo {
 color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -50,6 +62,7 @@ color: #4D5AE5;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
+        margin-right: 76px;
 }
 .menu-link {
         font-family: 'Roboto', sans-serif;
@@ -67,6 +80,7 @@ color: #404BBF;
 }
 .address {
     font-style: normal;
+    display: flex;
 }
 .contacts {
     font-family: 'Roboto',sans-serif;
@@ -76,6 +90,7 @@ color: #404BBF;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .contacts:hover {
@@ -83,6 +98,17 @@ color: #404BBF;
 }
 .contacts:focus{
     color: #404BBF;
+}
+.main-navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 471px;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    column-gap: 24px;
 }
 
 /* =======HEADER STYLES ======*/
@@ -111,10 +137,13 @@ color: #404BBF;
     background: #4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
+    display: block;
+    min-width: 169px;
+    height:56px;
         padding: 16px 32px;
         align-items: flex-start;
         gap: 10px;
+    border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
