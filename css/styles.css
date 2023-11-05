@@ -44,7 +44,11 @@ padding-bottom: 120px;
 }
 /* =======HEADER STYLES ======*/
 
-
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
+}
 .logo {
 color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -80,7 +84,10 @@ color: #404BBF;
 }
 .address {
     font-style: normal;
+}
+.address-list {
     display: flex;
+    column-gap: 40px;
 }
 .contacts {
     font-family: 'Roboto',sans-serif;
@@ -104,14 +111,13 @@ color: #404BBF;
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
 }
 .menu {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
-/* =======HEADER STYLES ======*/
+
 
 /* ====== HERO SECTION =====*/
 .hero-section {
@@ -142,9 +148,6 @@ color: #404BBF;
     display: block;
     min-width: 169px;
     height:56px;
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -162,6 +165,7 @@ color: #404BBF;
 /* ====== OUR BENEFITS =====*/
 .our-benefits {
     background-color: #F4F4FD; 
+    padding: 120px 0;
 }
 .benefits {
     font-family: 'Roboto', sans-serif;
@@ -173,6 +177,12 @@ color: #404BBF;
 .secondary-menu {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 24px;
+
+}
+.menu-item {
+    width: calc((100% - 72px) / 4;
 }
 .menu-item-titel {
     font-family: 'Roboto', sans-serif;
@@ -181,6 +191,7 @@ color: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .paragraf {
     color: #434455;
@@ -206,6 +217,11 @@ color: #404BBF;
     text-align: center;
     color: #2E2F42;
     margin-bottom: 72px;
+}
+.menu-item-team {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+
 }
 .names {
     color: #2E2F42;
@@ -236,7 +252,8 @@ color: #404BBF;
 
 /*======PAGE FOOTER=====*/
 .footer {
-        background-color: #2E2F42;
+    background-color: #2E2F42;
+    padding: 100px 0;
 }
 .paragraf-footer {
     font-family: 'Roboto', sans-serif;
@@ -245,6 +262,7 @@ color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        max-width: 264px;
 }
 .logo-span-footer {
     font-family: 'Raleway', sans-serif;
@@ -253,10 +271,5 @@ color: #404BBF;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color: #F4F4FD;
-}
-
-.menu-item-team {
-    background-color: #FFFFFF;
-
+        color: #F4F4FD;
 }
