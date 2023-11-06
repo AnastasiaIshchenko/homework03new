@@ -248,6 +248,12 @@ color: #404BBF;
     color: #2E2F42;
     margin-bottom: 72px;
 }
+.menu-team {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
 .menu-item-team {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
