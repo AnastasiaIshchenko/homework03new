@@ -128,7 +128,8 @@ color: #404BBF;
 
 .solutions {
     text-align: center;
-    font-family: Roboto;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
