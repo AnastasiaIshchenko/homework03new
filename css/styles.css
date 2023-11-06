@@ -245,7 +245,7 @@ color: #404BBF;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
-.container-name {
+.container-teams {
     padding: 32px 0;
 }
 .paragraf-team {
@@ -261,11 +261,12 @@ color: #404BBF;
 /*======OUR PORTFOLIO======*/
 .examples {
     color: #2E2F42;
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .portfolio-para {
     color: #434455;
@@ -283,6 +284,12 @@ color: #404BBF;
 }
 .portfolio-item {
     width: calc((100% - 48px) / 3);
+
+}
+.container-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
 }
 /*======PAGE FOOTER=====*/
