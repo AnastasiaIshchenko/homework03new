@@ -57,6 +57,7 @@ color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-span {
     font-family:'Raleway',sans-serif;
@@ -182,8 +183,8 @@ color: #404BBF;
 
 }
 .menu-item-benefits {
-    width: calc((100% - 72px) / 4);
     align-items: center;
+    width: calc((100%-72px)/4);
 }
 .menu-item-titel {
     font-family: 'Roboto', sans-serif;
@@ -201,6 +202,7 @@ color: #404BBF;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        align-items: center;
 }
 
 
@@ -213,7 +215,7 @@ color: #404BBF;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-     letter-spacing: 0.72px;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
